@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(81, 140, 218);
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Times New Roman', sans-serif;
+}
+/*font-family: modifica as fontes
+color: modifia as cores
+font-style: estilo da fonte
+font-weigth: tamanho dad fontes
+text-decoration: põe caracteres especiais*/
+
+h1 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgb(87, 154, 241);
+    text-align: center; /* centralizar*/
+    border: solid;
+    border-width: 2px rgb(37, 37, 100);
+}
+nav {
+    background-color: rgb(255, 232, 202);
+    border: solid inset 2px #2a2370;
+    border-style: inset; /* usado para por a borda por dentro*/
+    width: 100%;
+
+}
+/*nav ul li {
+    float: left;
+    text-decoration: nome;
+    ul: lista;
+    li: lista ordenada
+    }*/
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0; /*para centralizar o padding é 0*/
+}
+li{
+    /*margin: 10px 0;*/
+    list-style: none; /* estilo da lista none = nenhum*/
+    width: 20%;
+    text-align: center;
+}
+a:hover{
+    font-size: 20px; /*aumetar o tamanho quando o mouse estiver em cima*/
+    color: red; 
+}
